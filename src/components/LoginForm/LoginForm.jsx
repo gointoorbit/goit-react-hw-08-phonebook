@@ -1,6 +1,6 @@
 import css from './LoginForm.module.css';
 import { useDispatch } from 'react-redux';
-import { logIn } from '../../redux/auth/operations';
+import { logIn } from '../../redux/auth/operations.js';
 import { nanoid } from 'nanoid';
 
 const emailId = nanoid();

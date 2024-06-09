@@ -1,6 +1,6 @@
 import css from './RegisterForm.module.css';
 import { useDispatch } from 'react-redux';
-import { register } from '../../redux/auth/operations';
+import { register } from '../../redux/auth/operations.js';
 import { nanoid } from 'nanoid';
 
 const nameId = nanoid();

@@ -1,10 +1,10 @@
-import { AddContactForm } from '../components/AddContactForm/AddContactForm';
-import { SearchFilter } from '../components/SearchFilter/SearchFilter';
-import { ContactList } from '../components/ContactList/ContactList';
+import { AddContactForm } from '../components/AddContactForm/AddContactForm.jsx';
+import { SearchFilter } from '../components/SearchFilter/SearchFilter.jsx';
+import { ContactList } from '../components/ContactList/ContactList.jsx';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { fetchContacts } from '../redux/contacts/operations';
-import { selectIsLoading, selectError } from '../redux/contacts/selectors';
+import { fetchContacts } from '../redux/contacts/operations.js';
+import { selectIsLoading, selectError } from '../redux/contacts/selectors.js';
 import { Helmet } from 'react-helmet';
 
 const Contacts = () => {

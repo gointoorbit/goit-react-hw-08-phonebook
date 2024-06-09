@@ -1,7 +1,7 @@
 import css from './SearchFilter.module.css';
 import { nanoid } from '@reduxjs/toolkit';
 import { useDispatch } from 'react-redux';
-import { setFilter } from '../../redux/filter/slice';
+import { setFilter } from '../../redux/filter/slice.js';
 
 const searchFilterId = nanoid();
 

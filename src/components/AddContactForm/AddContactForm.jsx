@@ -1,9 +1,9 @@
 import css from './AddContactForm.module.css';
 import { nanoid } from 'nanoid';
 import { useSelector } from 'react-redux';
-import { selectContacts } from '../../redux/contacts/selectors';
+import { selectContacts } from '../../redux/contacts/selectors.js';
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/contacts/operations';
+import { addContact } from '../../redux/contacts/operations.js';
 
 const nameId = nanoid();
 const numberId = nanoid();
