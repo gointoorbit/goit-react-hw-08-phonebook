@@ -1,0 +1,22 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loginFormInput {
+  width: 30vw;
+}
+
+.loginFormButton {
+  margin-block: 20px;
+  width: 20vw;
+  padding-block: 8px;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 8px 10px 15px -14px rgba(21, 32, 40, 1);
+}
+
+.formTitle {
+  font-size: 20px;
+}

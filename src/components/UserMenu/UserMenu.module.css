@@ -1,0 +1,17 @@
+.menuContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.userEmail {
+  font-weight: 700;
+}
+
+.logoutButton {
+  padding: 8px 15px;
+
+  border-radius: 5%;
+  border: none;
+  box-shadow: 8px 10px 15px -14px rgba(21, 32, 40, 1);
+}
